@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
 
+        btnLogin.setOnClickListener{
+            val i = Intent(this, ProdutoActivity::class.java)
+            startActivity(i)
+        }
+
 
 
 
